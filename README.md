@@ -52,4 +52,30 @@ Applications seach key words and filter all other words on the document
  * filter
  * appendChild()
  * map()
+ 
+ ## 4.Password Generator
+
+<img
+  src="https://i.ibb.co/8bCxWgm/colorflipper.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+>modifying the DOM. 
+Applications seach key words and filter all other words on the document
+ ### Key concepts covered: ###
+ * find()
+ 
+  ## 5.Weather App
+
+<img
+  src="https://i.ibb.co/txkVmGF/weather.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+>modifying the DOM. 
+Applications seach key words and filter all other words on the document
+ ### Key concepts covered: ###
+ * find()
 
