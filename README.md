@@ -3,7 +3,11 @@
 
 ## 1.Color Flipper
 
-![picture alt](https://ibb.co/YXCdzBN)
+<img
+  src="/images/colorflipper.png."
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 >modifying the DOM. 
 Applications update the page's data without requiring a refresh can be made.
