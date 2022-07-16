@@ -36,7 +36,7 @@ Applications update the page's data store in the localstorage and can also delet
  * map()
  * Sort Algorithm
 
-## 2.Search Engine
+## 3.Search Engine
 
 <img
   src="https://i.ibb.co/F8XcnTH/searchengine.png"
