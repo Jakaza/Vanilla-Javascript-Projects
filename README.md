@@ -5,6 +5,6 @@
 
 >You can do anything you want by modifying the DOM. 
 Applications that update the page's data without requiring a refresh can be made.
- ## Key concepts covered:
+ ## Key concepts covered: ##
  * arrays
 
