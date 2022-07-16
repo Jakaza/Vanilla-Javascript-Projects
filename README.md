@@ -4,7 +4,7 @@
 ## 1.Color Flipper
 
 <img
-  src="/images/colorflipper.png."
+  src="https://i.ibb.co/8bCxWgm/colorflipper.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
