@@ -7,7 +7,7 @@
   src="https://i.ibb.co/8bCxWgm/colorflipper.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; min-width: 300px; width: 100%">
 
 >modifying the DOM. 
 Applications update the page's data without requiring a refresh can be made.
