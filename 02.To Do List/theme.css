@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(215, 215, 215);
+}
+nav{
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(35, 35, 215, 0.832);
+}
+nav h1{
+    color: white;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    margin: 50px auto;
+    width: 90%;
+    max-width: 550px;
+    border-top: 5px solid rgba(35, 35, 215, 0.832);
+    min-height: 600px;
+}
+.input-field{
+    width: 100%;
+    height: 100%;
+}
+.input-controller{
+    width: 100%;
+    max-width: 550px;
+    height: 30px;
+    margin-top: 25px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.input-controller input{
+    height: inherit;
+}
+input[type="text"]{
+    width: 74%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    max-width: 550px;
+}
+input[type="submit"]{
+    width: 25%;
+    background-color: rgba(35, 35, 215, 0.832);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    max-width: 200px;
+}
+input[type="submit"]:hover{
+    color: rgb(207, 207, 207);
+    background-color: rgba(61, 61, 220, 0.832);;
+}
+
+.list{
+    padding: 15px 0;
+    width: 100%;
+}
+
+.list li{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 8px 5px;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list li:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.list li p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.list li span{
+    background-color: rgb(235, 130, 130);
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: .1s transform;
+}
+.list li span:hover{
+    transition: .1s;
+    background-color: rgb(207, 45, 45);
+}
+
+
+.sort-by{
+    padding: 15px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+select{
+    padding: 2px 3px;
+}
+
+.hide{
+    display: none;
+}
+

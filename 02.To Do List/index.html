@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | To Do List </title>
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Todo List</h1>
+    </nav>
+
+    <main>
+
+        <form id="form-container" class="input-field">
+            <div class="input-controller">
+                <input type="text" id="text">
+                <input type="submit" value="add">
+            </div>
+        </form>
+
+        <div class="sort-by">
+            <span>Sort By</span>
+            <select id="sort-option">
+                <option value="0">--choose an option--</option>
+                <option value="1">Accending</option>
+                <option value="2">Deccending</option>
+            </select>
+        </div>
+
+        <ul class="list">
+            <!-- <li data-id="14541">
+                <p>Hello World</p>
+                <span>Delete</span>
+            </li> -->
+        </ul>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
