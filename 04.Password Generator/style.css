@@ -1,0 +1,139 @@
+
+body , 
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(47, 94, 223, 0.24), rgba(8, 15, 109, 0.39));
+}
+
+hr{
+    width: 95%;
+    margin: 10px auto;
+    color: rgb(99, 99, 99);
+}
+
+.flex-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container{
+    width: 450px;
+    height: auto;
+    padding: 15px 0;
+    margin: 60px auto;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(28, 28, 189, 0.89) , rgba(23, 39, 184, 0.863));
+}
+
+.main-container h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 2.2rem;
+    letter-spacing: 1.3px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.output-field{
+    width: 95%;
+    margin: 5px auto;
+    position: relative;
+    height: 60px;
+    /* background-color: white; */
+}
+
+.output-field input {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: rgb(14, 11, 155);
+    padding: 3px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+.copy{
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+    border: none;
+    padding: 3px 8px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.copy:hover{
+    background-color: rgb(187, 187, 187);
+}
+ 
+.input-field{
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.input-field label{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.input-field input{
+    width: 60px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
+.input-field input[type="button"]{
+    width: 100%;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 6px;
+    background-color: rgb(12, 177, 34);
+    color: white;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
+
+.input-field input[type="button"]:hover{
+    background-color: rgb(41, 219, 65);
+}
+
+.input-field input[type="check-boc"]{
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+
+    .main-container{
+        width: 98%;
+        padding: 25px 0;
+        margin: 60px auto;
+        border-radius: 10px;
+    }
+}

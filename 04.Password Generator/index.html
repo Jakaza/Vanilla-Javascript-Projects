@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="main-container form-field">
+            <h1>Password Generator</h1>
+            <div class="output-field">
+                <input id="output" readonly min="3" max="15" type="text" disabled value="" name="" id="">
+                <button onclick="copyPaasword()" class="copy">Copy</button>
+            </div>
+
+            <div class="input-field flex-flex password-length">
+                <label for="">Password Length</label>
+                <input id="length" type="number">
+
+            </div>
+            <hr>
+
+            <div class="input-field flex-flex password-length">
+                <label for="">Include Uppercase</label>
+                <input id="uppercase" type="checkbox">
+
+            </div>
+            <hr>
+
+            <div class="input-field flex-flex password-length">
+                <label for="">Include Lowercase</label>
+                <input id="lowercase" type="checkbox">
+
+            </div>
+            <hr>
+
+            <div class="input-field flex-flex password-length">
+                <label for="">Include Numbers</label>
+                <input id="numbers" type="checkbox">
+
+            </div>
+            <hr>
+
+            <div class="input-field flex-flex password-length">
+                <label for="">Include Symbols</label>
+                <input id="symbols" type="checkbox">
+
+            </div>
+            <hr>
+
+            <div class="input-field flex-flex password-length">
+
+                <input class="button" type="button" name="submit" value="generate password">
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

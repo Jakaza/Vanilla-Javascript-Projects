@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\Budget Web"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Password Generator"
+	}
+}
