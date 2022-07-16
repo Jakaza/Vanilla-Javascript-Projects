@@ -1,2 +1,10 @@
-# Vanilla-Javascript-Projects
-Projects built in Vanilla Javascrip.
+#Vanilla Javascript Projects
+##projects using JavaScript without a framework
+
+#Color Flipper
+
+>You can do anything you want by modifying the DOM. 
+Applications that update the page's data without requiring a refresh can be made.
+##Key concepts covered:
+*arrays
+
