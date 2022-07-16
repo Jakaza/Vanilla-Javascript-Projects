@@ -3,6 +3,8 @@
 
 ## 1.Color Flipper
 
+![picture alt](http://via.p)
+
 >modifying the DOM. 
 Applications update the page's data without requiring a refresh can be made.
  ### Key concepts covered: ###
