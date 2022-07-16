@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="search.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="inner-main-container">
+            <div class="head">
+                <h1>Weather App</h1>
+            </div>
+
+            <form class="search-box">
+                <input id="name" class="input" placeholder="Search A City By Name...">&nbsp;&nbsp;
+                <button id="search" type="submit" class="btn-1">Search</button>
+            </form>
+
+            <div class="weather-main-container">
+
+                <div class="loading-container">
+                    <div class="loading">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                    </div>
+
+                </div>
+
+                <div class="weather" style="display: none;">
+
+                <div class="cloud-con">
+
+                </div>
+
+                <div class="city-name">
+                    <h2 id="name"></h2>
+                </div>
+                <div class="degrees">
+                    <span class="o"><p>0</p></span>
+                    <span><h1 class="s"></h1></span>
+                    <span class="d"> <h3>C</h3></span>
+                </div>
+
+                <div class="date">
+                    <p id="currentDate">August , 25 June 2021</p>
+                    <hr>
+                </div>
+
+                <div class="details-con">
+                    <ul>
+                        <li>Temp : <span id="temp"></span></li>
+                        <li>Humidity : <span id="humi"></span></li>
+                        <li>Weather : <span id="weather"></span> </li>
+                        <li>Temp Range : <span id="temprange"></span> </li>
+                    </ul>
+                   
+                </div>
+            
+            </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
