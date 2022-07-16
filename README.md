@@ -3,8 +3,8 @@
 
 ## 1.Color Flipper
 
->You can do anything you want by modifying the DOM. 
-Applications that update the page's data without requiring a refresh can be made.
+>modifying the DOM. 
+Applications update the page's data without requiring a refresh can be made.
  ### Key concepts covered: ###
  * arrays
  * addEventListener()
