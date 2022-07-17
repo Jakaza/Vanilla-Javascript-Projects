@@ -1,0 +1,107 @@
+body , 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+.main-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+button{
+    background-color: rgb(18, 7, 112);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(36, 23, 158);
+    color: rgb(235, 235, 235);
+}
+
+.pop-con{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: 150px;
+}
+
+article{
+    position: absolute;
+    right: 0px;
+    padding: 10px 0 10px 15px;
+    width: 360px;
+    /* border-left: 10px solid rgb(18, 7, 112); */
+    /* border-left: 8px solid rgb(18, 7, 112);  */
+    border-left: 8px solid #47d764; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    color: rgb(78, 78, 78);
+    /* box-shadow: .2px .2px 1px .2px rgb(153, 153, 153); */
+    box-shadow: 0 10px 20px rgb(75 50 50 / 5%);
+    transform: translateX(100%);
+
+    /* transition: all linear 400ms;
+    transition-delay: 100ms;
+    transition-duration: 400ms; */
+
+    
+
+    /*===========================*/
+    transition-property: all;
+    transition-duration: 1s;
+    /* transition-timing-function: ease; */
+    transition-delay: 0s;
+
+    /*================Try===================*/
+
+    transition-timing-function: cubic-bezier(0.6, -0.28, 0.74, 0.05);
+
+}
+
+article h3{
+    color: #47d764;
+}
+
+article h3 , article p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.close{
+    width: 100%;
+    position: relative;
+    height: 25px;
+    overflow: hidden;
+}
+
+.close span{
+    position: absolute;
+    right: 55px;
+    font-size: 1rem;
+    color: rgb(75, 75, 75);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.close span:hover{
+   font-size: 1.1rem; 
+   color: rgb(39, 39, 39);
+}
