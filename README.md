@@ -92,7 +92,7 @@ Applications seach key words and filter all other words on the document
  ### Key concepts covered: ###
  * find()
  
- ## 7.Paragraph Generato
+ ## 7.Paragraph Generator
 
 <img
   src="https://i.ibb.co/ZMvMGV7/paragraphgenerator.png"
@@ -103,5 +103,4 @@ Applications seach key words and filter all other words on the document
 >modifying the DOM. 
 Applications seach key words and filter all other words on the document
  ### Key concepts covered: ###
- * find()
-
+ *hhhh
