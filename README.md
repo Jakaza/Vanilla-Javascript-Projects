@@ -78,4 +78,30 @@ Applications seach key words and filter all other words on the document
 Applications seach key words and filter all other words on the document
  ### Key concepts covered: ###
  * find()
+ 
+## 6.Nitification Popup
+
+<img
+  src="https://i.ibb.co/6JQ1bs0/notification.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+>modifying the DOM. 
+Applications seach key words and filter all other words on the document
+ ### Key concepts covered: ###
+ * find()
+ 
+ ## 7.Paragraph Generato
+
+<img
+  src="https://i.ibb.co/ZMvMGV7/paragraphgenerator.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+>modifying the DOM. 
+Applications seach key words and filter all other words on the document
+ ### Key concepts covered: ###
+ * find()
 
